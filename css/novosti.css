@@ -1,0 +1,100 @@
+#title {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.gridContainer {
+  transition: width 2s, height 2s, transform 2s;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.gridRow {
+  width: 80%;
+  margin: auto;
+}
+
+.gridItem {
+  display: flex;
+  border: 20px solid #f8f8f8;
+  box-shadow: 0 0 20px rgb(19, 16, 16);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: auto 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 75px;
+}
+
+#novost1 {
+  background-image: url(/media/img/novost1.jpg);
+  animation: 1s ease-in 0s 1 animateLeftItem;
+}
+
+#novost2 {
+  background-image: url(/media/img/novost2.jpg);
+  animation: 1s ease-in 0s 1 animateCenterItem;
+}
+
+#novost3 {
+  background-image: url(/media/img/novost3.jpg);
+  animation: 1s ease-in 0s 1 animateRightItem;
+}
+
+.itemImage {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.itemTitle {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  width: 80%;
+  font-size: small;
+  margin-top: 5px;
+}
+
+.date {
+  color: yellow;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  font-size: small;
+  margin-bottom: none;
+  margin-bottom: 0px;
+}
+
+@keyframes animateLeftItem {
+  0% {
+    transform: translateX(100%) scale(0.1);
+  }
+  100% {
+    transform: translateX(0%) scale(1);
+  }
+}
+
+@keyframes animateRightItem {
+  0% {
+    transform: translateX(-100%) scale(0.1);
+  }
+  100% {
+    transform: translateX(0%) scale(1);
+  }
+}
+
+@keyframes animateCenterItem {
+  0% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

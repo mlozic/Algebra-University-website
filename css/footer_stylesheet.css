@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/media/img/zaiskri-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+  position: relative;
+  bottom: 0px;
+}
+
+.footerText {
+  font-size: 40px;
+  color: blanchedalmond;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 2px 2px black;
+  margin-bottom: 20px;
+}
+
+.footerTextRed {
+  color: #a50303;
+  margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+#imageContainer {
+  display: flex;
+  background-image: url(/media/img/novost2.jpg);
+  background-position: top;
+  align-items: center;
+}
+
+.contentParagraph {
+  margin: 50px auto;
+  width: 65%;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: medium;
+}

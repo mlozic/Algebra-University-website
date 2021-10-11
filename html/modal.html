@@ -1,0 +1,74 @@
+<div class="modal fade" id="kontaktModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="modal-title">
+          <img id="titleImg" src="/media/img/mail_blue.svg" alt="mail icon" />
+          Kontaktirajte nas
+        </div>
+        <hr />
+        <form action="http://www.fulek.com/VUA/SUPIT/ContactUs" method="POST">
+          <div class="form-group">
+            <label for="name" class="col-form-label modal-label"
+              >Puno Ime:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-form-label modal-label"
+              >E-mail:</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="importance" class="modal-label">Važnost poruke:</label>
+            <select class="form-control" id="importance" name="importance">
+              <option>Visoka</option>
+              <option>Niska</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-form-label modal-label"
+              >Vaša poruka:</label
+            >
+            <textarea
+              class="form-control"
+              id="message"
+              rows="6"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label modal-label" for="newsletter">
+              Primaj newsletter:
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="newsletter"
+              name="newsletter"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary buttons">Pošalji</button>
+          <button class="btn btn-danger buttons" data-dismiss="modal">
+            Odustani
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

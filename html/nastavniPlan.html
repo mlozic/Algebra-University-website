@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nastavni Plan</title>
+    <link
+      rel="shortcut icon"
+      href="/media/img/Algebra-logo.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="/js/modal.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/css/header_stylesheet.css">
+    <link rel="stylesheet" href="/css/footer_stylesheet.css">
+    <link rel="stylesheet" href="/css/title.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/nastavniPlan.css">
+</head>
+<body>
+
+    <div class="header">
+        <img id="logo" src="/media/img/Algebra-logo.png" alt="">
+        <div class="headerItem"><img class="headerIcon" src="/media/img/home.svg" alt=""><a href="/index.html">Početna</a></div>
+        <div class="headerItem"><img class="headerIcon" src="/media/img/comments.svg" alt=""><a href="/html/o_nama.html">O nama</a></div>
+        <div class="headerItem"><img class="headerIcon" src="/media/img/information.svg" alt=""><a href="/html/novosti.html">Novosti</a></div>
+        <div class="headerItem"><img class="headerIcon" src="/media/img/information.svg" alt=""><a href="/html/nastavni_plan.html">Nastavni plan</a></div>
+        <button id="btnKontakt" type="button" data-toggle="modal" data-target="#kontaktModal" class="headerItem"><img class="headerIcon" src="/media/img/mail.svg" alt=""><a href="#">Kontakt</a></button>
+    </div>
+    <h1 id="title">Nastavni Plan</h1>
+
+    <div id="container">
+        <div class="leftSide">
+            <label for="classes">Naziv kolegija:</label>
+            <input id="classes">
+        </div>
+        <div class="rightSide">
+            <table id="tableBody">
+                <colgroup>
+                    <col width="44%"/>
+                </colgroup>
+                <colgroup>
+                    <col span="2" width="9%" />
+                </colgroup>
+                <colgroup>
+                    <col span="2" width="6%" />
+                </colgroup>
+                <colgroup>
+                    <col span="2" width="12%" />
+                </colgroup>
+                <thead id="tableHeader">
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot id="tableFooter">
+                </tfoot>
+            </table cellpadding="50">
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p class="footerText">Budi izvrstan u onom što voliš</p>
+        <p class="footerText footerTextRed">Zaiskri</p>
+    </div>
+    <div id="modal"></div>
+    <script type="text/javascript" src="/js/nastavniPlan.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+h1 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 3px solid rgba(179, 135, 29, 1);
+  padding: 20px;
+  animation: 1s ease-in 0s 1 animateTitle;
+}
+
+@keyframes animateTitle {
+  0% {
+    transform: translateY(60%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+#imageContainer {
+  height: 300px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin-top: 70px;
+  animation: 1s ease-in 0s 1 animateImage;
+}
+
+@keyframes animateImage {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.imageText {
+  width: 50%;
+  margin: auto;
+  color: blanchedalmond;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.6;
+}

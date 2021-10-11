@@ -1,0 +1,47 @@
+/* -----REUSABLE HEADER----- */
+
+.header {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  z-index: 1;
+  top: 0px;
+}
+.headerItem {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  font-size: medium;
+  font-weight: bold;
+  color: blanchedalmond;
+  margin-right: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+.headerIcon {
+  height: 30px;
+  width: auto;
+  margin-right: 8px;
+}
+#logo {
+  height: 45px;
+  width: 45px;
+  margin: 12px 40px;
+}
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+a:hover {
+  color: gold;
+}
+#btnKontakt {
+  background-color: black;
+  border: none;
+}
+body {
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

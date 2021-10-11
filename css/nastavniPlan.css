@@ -1,0 +1,68 @@
+#title {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.leftSide {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.rightSide {
+  width: 100%;
+  margin-left: 20px;
+  height: 250px;
+  overflow: scroll;
+}
+
+#classes {
+  display: block;
+  width: 100%;
+}
+
+#tableBody {
+  width: 100%;
+  border-top: 0.5px solid grey;
+}
+
+#tableFooter {
+  border-top: 2px solid black;
+}
+
+#totalLabel {
+  font-weight: bold;
+}
+
+.totalValue {
+  font-weight: bold;
+  color: red;
+}
+
+tbody tr:nth-child(odd) {
+  background: rgba(128, 128, 128, 0.329);
+}
+
+tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+td {
+  padding: 5px;
+}
+
+th {
+  padding: 5px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

@@ -1,0 +1,34 @@
+#titleImg {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.modal-title {
+  font-size: 30px;
+  align-items: center;
+}
+
+.modal {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.modal:before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.buttons {
+  margin: 10px 5px 0 5px;
+}
+
+.modal-label {
+  font-weight: bold;
+}

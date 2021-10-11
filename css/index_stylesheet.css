@@ -1,0 +1,31 @@
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  overflow: hidden;
+}
+#moto1 {
+  border-right: 15px solid blanchedalmond;
+  color: blanchedalmond;
+  font-size: 50px;
+  text-shadow: 4px 2px black;
+}
+#moto2 {
+  border-right: 15px solid blanchedalmond;
+  color: #b61111;
+  font-size: 55px;
+  text-shadow: 4px 2px black;
+  display: inline;
+}
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

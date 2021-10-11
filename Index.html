@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supit - projektni zadatak</title>
+    <link
+      rel="shortcut icon"
+      href="media/img/Algebra-logo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="/js/modal.js"></script>
+    <link rel="stylesheet" href="/css/index_stylesheet.css" />
+    <link rel="stylesheet" href="/css/header_stylesheet.css" />
+    <link rel="stylesheet" href="/css/modal.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img id="logo" src="media/img/Algebra-logo.png" alt="Algebra logo" />
+      <div class="headerItem">
+        <img class="headerIcon" src="/media/img/home.svg" alt="home icon" /><a
+          href="/Index.html"
+          >Početna</a
+        >
+      </div>
+      <div class="headerItem">
+        <img
+          class="headerIcon"
+          src="/media/img/comments.svg"
+          alt="chat icon"
+        /><a href="/html/o_nama.html">O nama</a>
+      </div>
+      <div class="headerItem">
+        <img
+          class="headerIcon"
+          src="/media/img/information.svg"
+          alt="info icon"
+        /><a href="html/novosti.html">Novosti</a>
+      </div>
+      <div class="headerItem">
+        <img
+          class="headerIcon"
+          src="/media/img/information.svg"
+          alt="info icon"
+        /><a href="/html/nastavniPlan.html">Nastavni plan</a>
+      </div>
+      <button
+        id="btnKontakt"
+        type="button"
+        class="headerItem"
+        data-toggle="modal"
+        data-target="#kontaktModal"
+      >
+        <img class="headerIcon" src="/media/img/mail.svg" alt="mail icon" />
+        <a href="#">Kontakt</a>
+      </button>
+    </div>
+
+    <div id="content">
+      <video
+        src="/media/video/typingOnlaptop.mp4"
+        class="video"
+        loop
+        autoplay
+        muted
+      ></video>
+    </div>
+
+    <div id="container">
+      <div id="moto1"></div>
+      <div id="moto2"></div>
+    </div>
+
+    <div id="modal"></div>
+    <script type="text/javascript" src="/js/index.js"></script>
+  </body>
+</html>

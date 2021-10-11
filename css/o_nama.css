@@ -1,0 +1,218 @@
+.headerItemSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#headerRight {
+  display: flex;
+  position: absolute;
+  top: 28px;
+  right: 20px;
+  animation: 3s ease-in 0s 1 slideRight;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(120%);
+  }
+  50% {
+    transform: translateX(120%);
+  }
+  70% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(15%);
+  }
+  87% {
+    transform: translateX(0%);
+  }
+  95% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.headerItemSlide a {
+  color: rgba(179, 135, 29, 1);
+}
+
+.headerItemSlide a:hover {
+  color: yellow;
+}
+
+#imageContainer {
+  background-image: url(/media/img/kampus-iz-zraka-min-1.jpg);
+}
+
+.subtitleImage {
+  height: 25px;
+  margin: auto 5px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  text-align: center;
+  font-size: 22px;
+  color: #a50303;
+  font-weight: bolder;
+}
+.content {
+  background-color: black;
+  padding: 30px;
+  animation: 1s ease-in 0s 1 animateContent;
+}
+
+@keyframes animateContent {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contentText {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  text-align: left;
+  padding: 30px;
+  font-family: "Dancing Script", cursive;
+  color: gray;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.gridContainer {
+  width: 70%;
+  margin: 40px auto;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gridItem {
+  border: 1px solid rgb(199, 196, 196);
+  height: 320px;
+  border-radius: 5px;
+}
+
+.col-boot {
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.itemTitle {
+  text-transform: uppercase;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(199, 196, 196);
+}
+
+.itemText {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+  color: gray;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.gridContainer2 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gridItem2 {
+  border: none;
+  height: 220px;
+}
+
+.itemTitle2 {
+  font-size: 11px;
+}
+
+.itemImage {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  display: block;
+}
+
+span {
+  color: rgb(115, 115, 236);
+}
+
+.kakoDoNasGrid {
+  display: grid;
+  width: 70%;
+  margin: 40px auto;
+  grid-column-gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.kakoDoNasItem {
+  border: 1px solid rgb(199, 196, 196);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.kakoDoNasTitle {
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.kakoDoNasText {
+  color: gray;
+  font-size: 13px;
+  margin: 20px 70px;
+  line-height: 1.6;
+}
+
+.kakoDoNasContainer {
+  overflow: hidden;
+  overflow: scroll;
+  height: 660px;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+  opacity: 0.5;
+}
+
+iframe {
+  display: block;
+  width: 70%;
+  margin: 10px auto;
+}
+
+@media only screen and (max-width: 1100px) {
+  #headerRight {
+    display: none;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
